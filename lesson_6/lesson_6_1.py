@@ -65,8 +65,8 @@ for person in list:
         max_name_len = name_len  
 
 # в
-av_age = av_age/len(list)
+av_age = round(av_age/len(list))
 
 print(young_list)
 print(long_name_list)
-print(round(av_age))
+print(av_age)
